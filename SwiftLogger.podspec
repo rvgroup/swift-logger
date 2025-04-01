@@ -13,4 +13,6 @@ Pod::Spec.new do |s|
 
     s.user_target_xcconfig = { 'ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES' => '$(inherited)' }
     s.source_files = 'Sources/**/*'
+
+    s.dependency 'Zip', '~> 2.1.1'
   end
